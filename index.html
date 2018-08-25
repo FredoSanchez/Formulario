@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sign up for free! :D</h1>
+    </header>
+    <section>
+        <article>
+            <form action="" method="POST"></form>
+            <fieldset>
+                <legend><h3>Personal information</h3></legend>
+
+
+                <fieldset>
+                    <legend><h4>Complete name</h4></legend>
+                    <label for="Fname">First name: </label>
+                    <input type="text" name="Firstname" id="Fname" placeholder="Firstname" required>
+
+                    <label for="Sname">Second name: </label>
+                    <input type="text" name="Secondname" id="Sname" placeholder="Secondname">
+
+                    <label for="Lname">Last name: </label>
+                    <input type="text" name="lastname" id="Lname" placeholder="Lastname" required pattern=".{4,10}">
+                </fieldset>
+
+                <br>
+
+                <label for="birthdate">Date of birth:</label>
+                <input type="date" name="birthdate" id="birthdate">
+
+                <br><br>
+
+                <label for="favAnimal">Favourite animal: </label>
+                <select name="favAnimal" id="favAnimal">
+                    <option value="favAnimal">Dog</option>
+                    <option value="favAnimal">Cat</option>
+                    <option value="favAnimal">Elephant</option>
+                    <option value="favAnimal">Gireffe</option>
+                    <option value="favAnimal">Tiger</option>
+                    <option value="favAnimal">Lion</option>
+                    <option value="favAnimal">Shark</option>
+                    <option value="favAnimal">Seal</option>
+                    <option value="favAnimal">Parrot</option>
+                    <option value="favAnimal">Aligator</option>
+                    <option value="favAnimal">Panda</option>
+                    <option value="favAnimal">Monkey</option>
+                    <option value="favAnimal">Squirrel</option>
+                    <option value="favAnimal">Chicken</option>
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><h3>Account</h3></legend>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+
+                <br><br>
+
+                <label for="pass">Password: </label>
+                <input type="password" required pattern=".{5,10}" name="pass" id="pass" placeholder="5 to 10 characters">
+
+                <br><br>
+
+                <label for="pass2">Confirm password: </label>
+                <input type="password" required pattern=".{5,10}" name="pass2" id="pass2" placeholder="Repeat the password">
+            </fieldset>
+
+            <br><br>
+            
+            <fieldset>
+                <legend><h3>Contact</h3></legend>
+
+                <label for="address">Adress: </label>
+                <textarea name="address" id="address" cols="100" rows="3">Where do you live?</textarea>
+
+                <br><br>
+
+                <label for="cities">City: </label>
+                <select name="cities" id="cities">
+                    <option value="cities">City 1</option>
+                    <option value="cities">City 2</option>
+                    <option value="cities">City 3</option>
+                    <option value="cities">City 4</option>
+                    <option value="cities">City 5</option>
+                    <option value="cities">City 6</option>
+                    <option value="cities">City 7</option>
+                </select>
+
+                <br><br>
+                <label for="country">Country: </label>
+                <select name="country" id="country">
+                    <option value="country">Autralia</option>
+                    <option value="country">Belize</option>
+                    <option value="country">Costa Rica</option>
+                    <option value="country">Denmark</option>
+                    <option value="country">El Salvador</option>
+                    <option value="country">France</option>
+                    <option value="country">Guatemala</option>
+                    <option value="country">Honduras</option>
+                    <option value="country">Israel</option>
+                    <option value="country">Japan</option>
+                    <option value="country">Korea</option>
+                    <option value="country">Laos</option>
+                    <option value="country">Mexico</option>
+                    <option value="country">New Zealand</option>
+                    <option value="country">Panama</option>
+                    <option value="country">Qatar</option>
+                    <option value="country">Russia</option>
+                    <option value="country">Senegal</option>
+                    <option value="country">Taiwan</option>
+                    <option value="country">United States</option>
+                    <option value="country">Venezuela</option>
+                    <option value="country">Yugoslavia</option>
+                    <option value="country">Zimbawe</option>
+                </select>
+            </fieldset>
+
+            <input type="submit" value="Sign up">
+            </form>
+        </article>
+    </section>
+</body>
+
+</html>
